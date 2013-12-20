@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HBKSugarActivity!</string>
+    <string name="app_name">声音糖果</string>
+    <!-- 
+    HBKSugar
+     -->
+    <string name="mail_address">weimingtom@qq.com</string>
+    <string name="version_number">1.6</string>
+    <string name="about_message">
+	声音糖果\n
+	版本：1.6\n
+\n
+一、使用说明：\n
+1. 建议在挂载SD卡和打开WIFI的情况下使用（一个节目通常是10MB以上）\n
+2. 使用下载管理器可播放已下载节目。\n
+3. 支持前台和后台的下载和播放。\n
+前台用于测试和试听节目的部分（可能会因为转屏或锁屏而被停止）。\n
+后台用于下载和收听整个节目（不会因为转屏或锁屏而被停止，驻留于状态栏中）。\n
+4. 播放器和节目节目中有些按钮长按会有第二功能。\n
+5. 在“已下载节目”列表中长按节目将跳至确认删除界面（删除该节目的所有本地下载mp3文件）。\n
+5. 在“已下载文件”列表中长按文件将跳至后台下载服务界面（继续下载未完成的节目，手动断点续传）。\n
+6. 后台服务和配置可查看已下载mp3文件的保存路径及统计信息。\n
+7. 支持自动重试机制(v1.5以后不支持)。\n
+8. VLC的下载见http://nightlies.videolan.org/build/，请选择合适的cpu版本如armv6-android-fpu。\n
+9. 支持用VLC播放器打开mms链接。（更方便的方法是直接用浏览器访问http://lantis-net.com/，可使用系统播放器播放mp3音频流）。\n
+10. 从2013年2月开始，hibiki的rtmp链接失效（改用rtmpe协议），下载流媒体到本地为flv格式，可使用VLC（或其它支持flv格式播放器）播放。\n
+\n
+二、目前的问题：\n
+1. 获取网页信息时（黑色标题栏）可能会导致界面崩溃。\n
+2. 因hibiki停止支持rtmp协议流媒体，所以rtmp下载器失效，v1.5以后支持rtmpe协议下载。\n
+3. VLC的安装包下载见http://nightlies.videolan.org/\n
+\n
+三、更新日志：\n
+◆v1.6更新日志：\n
+★不等待获取mms链接就显示简介（防止出现无限期等待）。\n
+★在等待界面时允许触碰屏幕退出等待状态。\n
+（内部版本号7，2013/6/17）\n
+\n
+◆v1.5更新日志：\n
+★支持下载rtmpe协议流媒体到本地flv格式文件（可以用VLC播放），但不支持续传和重试。\n
+★去除rss阅读器。\n
+（内部版本号6，2013/6/3）\n
+\n
+◆v1.4更新日志：\n
+★支持用VLC播放hibiki的mms协议流媒体（原rtmp下载器失效）\n
+（内部版本号5，2013/2/20）\n
+\n
+◆v1.3更新日志：\n
+★修正线程与通知栏问题\n
+（内部版本号4，2013/1/28）\n
+\n
+◆v1.2更新日志：\n
+★可读取Lantis上的网络广播链接（需使用VLC播放器，或直接使用浏览器打开网页上的mp3音频流）\n
+（内部版本号3，2013/1/7）\n
+\n
+◆v1.1更新日志：\n
+★支持用VLC打开rtmp流链接。\n
+★RSS阅读器（测试）。\n
+★flazr流媒体下载器支持重试机制。\n
+（内部版本号2，2012/12/17）\n
+\n
+◆v1.0更新日志：\n
+★首次上传。\n
+★实现后台下载的手动断点续传（重连）。\n
+★还不能实现后台下载的无监控重试，所以只是测试性质。\n
+（内部版本号1，2012/10/08）\n
+\n
+\n
+四、鸣谢和引用资源：\n
+1. 響 - HiBiKi Radio Station -\n
+http://hibiki-radio.jp/\n
+\n
+2. Flazr\n
+GNU Lesser General Public License, Version 3\n
+http://flazr.com/\n
+\n
+3. Netty\n
+https://netty.io/\n
+\n
+4. Spring for Android\n
+http://www.springsource.org/spring-android\n
+\n
+5. RTMPDump\n
+http://rtmpdump.mplayerhq.hu/\n
+License: GPLv2 \n
+\n
+6. rtmpdump-android\n
+https://github.com/ardemiranda/rtmpdump-android\n
+\n
+\n
+五、联系方式：\n
+Author：weimingtom\n
+Blog：http://hi.baidu.com/new/weimingtom_\n
+Email：weimingtom@qq.com\n
+	</string>
+</resources>

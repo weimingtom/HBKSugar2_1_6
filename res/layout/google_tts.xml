@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF"
+    >
+    
+    <LinearLayout
+        android:id="@+id/linearLayoutTitle"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/topbar_bg"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="35.0dip"
+        >
+        
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="12.0sp"
+            android:text="" />
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </EditText>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        
+	    <Button
+	    	android:id="@+id/buttonDownload"
+	      	android:layout_width="match_parent"
+	      	android:layout_height="wrap_content"
+	      	android:layout_weight="1"
+	      	android:text="下载" 
+	      	/>
+	    <Button
+	    	android:id="@+id/buttonPlay"
+	      	android:layout_width="match_parent"
+	      	android:layout_height="wrap_content"
+	      	android:layout_weight="1"
+	      	android:text="播放" 
+	      	/>
+	    <Button
+	      	android:id="@+id/buttonBack"
+	      	android:layout_width="match_parent"
+	      	android:layout_height="wrap_content"
+	      	android:layout_weight="1"
+	      	android:text="返回" 
+	      	/>
+    </LinearLayout>
+
+</LinearLayout>

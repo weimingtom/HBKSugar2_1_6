@@ -1,0 +1,53 @@
+http://topic.csdn.net/u/20120929/11/79f7ace6-e3f0-416f-a09f-99cdaae66a6c.html
+
+1.刷新时间不要太频繁
+2.AndroidManifest.xml是否添加了不允许休眠的权限
+Java code
+
+<uses-permission android:name="android.permission.WAKE_LOCK" /> 
+<uses-permission android:name="android.permission.DEVICE_POWER" />
+
+
+3.如果你是添加了不允许休眠的权限，那在service中还需要在合适的地方调用下面的方法
+Java code
+
+/**
+     * onCreate时,申请设备电源锁
+     */
+    private void acquireWakeLock() {
+        if (null == mWakeLock) {
+            PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
+            mWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK
+                    | PowerManager.ON_AFTER_RELEASE, "myService");
+            if (null != mWakeLock) {
+                mWakeLock.acquire();
+            }
+        }
+    }
+
+    /**
+     * 释放设备电源锁
+     */
+    private void releaseWakeLock() {
+        if (null != mWakeLock) {
+            mWakeLock.release();
+            mWakeLock = null;
+        }
+    }
+
+
+4.我没仔细看你的代码，我的做法是在主界面中启动一个定时器，定时发送一个广播，通过广播去调用service，这样就不需要第二步了。
+Java code
+
+if (flag) {
+Intent intent = new Intent(Main.this, AlamrReceiver.class);
+PendingIntent pi = PendingIntent.getBroadcast(Main.this, 0, intent,0);
+// 获取全局定时器的服务管理器
+AlarmManager am = (AlarmManager) getSystemService(Activity.ALARM_SERVICE);
+// 通过该方法指定的任务会一直间隔执行，第三个参数就指定了执行的时间间隔
+// 如果我们想取消的话，请使用：alarmManager.cancel(pendingIntent);
+// 注意，这里的pendingIntent要和setRepeating方法中的一致哦。
+am.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(),(5 * 60 * 1000), pi);// 重复设置
+flag = false;//设为false，确保只启动一次
+        }
+

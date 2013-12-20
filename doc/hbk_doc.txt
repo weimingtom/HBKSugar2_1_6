@@ -1,0 +1,710 @@
+﻿GET / HTTP/1.1
+Host: hibiki-radio.jp
+
+网页
+<li><a id="hbkTab1"  href="http://hibiki-radio.jp/get_program/1"></a></li>
+
+->
+
+GET /get_program/1 HTTP/1.1
+Host: hibiki-radio.jp
+
+网页
+<div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('r-2_live','925','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/bd76889779b86885a463fcf323c09ac36f7e5325.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">喜多村英梨の<br />
+
+ROYAL × RADIO</div><div class="hbkProgramComment">次回生放送は ９月２４日２２時！</div></a></div>
+
+信息
+
+喜多村英梨の
+ROYAL × RADIO
+次回生放送は ９月２４日２２時！
+
+图片
+http://image.hibiki-radio.jp/uploads/radio_program/top_banner/bd76889779b86885a463fcf323c09ac36f7e5325.jpg
+
+点击
+AttachVideo('r-2_live','925','1','0')
+
+->
+
+GET /uploads/data/channel/r-2_live/925.xml?1348317387312 HTTP/1.1
+Host: hibiki-radio.jp
+
+
+<data>
+	<protocol>rtmpt</protocol>
+	<domain>fms.hibiki-radio.info</domain>
+	<dir>hibiki1004</dir>
+	<channel type="main">
+		<flv>8_0_336</flv>
+		<thumbnail>http://image.hibiki-radio.jp/uploads/radio_program/flash_image/a3c49b40a44908ba8ae972b6c4802a2c0eb24d5d.jpg</thumbnail>
+	</channel>
+</data>
+
+缩略图
+http://image.hibiki-radio.jp/uploads/radio_program/flash_image/a3c49b40a44908ba8ae972b6c4802a2c0eb24d5d.jpg
+
+url:
+rtmp://fms.hibiki-radio.info/hibiki1004/8_0_336?1348317387312
+
+
+===
+1. 
+
+Send: Return Code: 0x00000000
+GET / HTTP/1.1
+Accept: */*
+UA-CPU: x86
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+Host: hibiki-radio.jp
+Connection: Keep-Alive
+Cookie: __utma=187713463.346008780.1289033154.1289043033.1342920264.3; __utmz=187713463.1342920264.3.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ezbax_dfukui_vid=38AC490AE5; NinActiveSess20662253=; NinjaAccessUser20662253=1342920264287 1342920264287 1342920264287 1 1; hibiki=l52rpmu8mrtnmr9i43j54rb0b7
+
+
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+HTTP/1.1 200 OK
+Date: Sat, 22 Sep 2012 12:21:11 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.13
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
+5519
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="銉堛儸銉笺儑銈ｃ兂銈般偒銉笺儔銈层兗銉犮伄鏍紡浼氱ぞ銉栥偡銉兗銉夈伄銈广償銉炽偄銈︺儓銈兂銉戙儖銉笺€併偆銉炽偪銉笺儘銉冦儓銉┿偢銈儩銉笺偪銉偟銈ゃ儓鏍紡浼氱ぞ闊裤€€-HiBiKi-銆傘偒銉笺儔銈层兗銉犮儵銈搞偑銇熆銇с儊銈с儍銈紒" /> 
+    <meta name="keywords" content="鏍紡浼氱ぞ闊?闊?HiBiKi,~hibiki~,銇层伋銇?hibiki-radio.jp,銉栥偡銉兗銉?銈ゃ兂銈裤兗銉嶃儍銉堛儵銈搞偑,銈兗銉夈偛銉笺儬銉┿偢銈?銉濄兗銈裤儷銈点偆銉?澹板劒,銈儶銈广偗銉偣,銈兗銉夈伄鍥姐伄銈儶銈?銈偑銈?銇娿倢銈堛倎銉┿偢
+
+Receive: Return Code: 0x00000000
+偑,銇椼倣銇忋倣銉┿偢銈?銈点兂銉囥兗VS銉炪偓銈搞兂,閰掍簳棣欏瀛?銇勩亱銇熴倱,銈儖銈兂" /> 
+    <meta name="title" content="闊?- HiBiKi Radio Station -" />
+    <title>闊?- HiBiKi Radio Station -</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml" title="鏈€鏂版儏鍫? href="http://hibiki-radio.jp/info.atom" />    
+    <link rel="stylesheet" ty
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+pe="text/css" media="screen" href="http://image.hibiki-radio.jp/css/main.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://image.hibiki-radio.jp/css/top.css" />
+    <script type="text/javascript" src="http://image.hibiki-radio.jp/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://image.hibiki-radio.jp/js/jquery-ui-1.8.custom.min.js"></script>
+<script type="text/javascript" src="http://image.hibiki-radio.jp/js/swfobject.js"></script>
+  </head>
+  <body>
+    <div id="top">
+    <div id="hbkWrapper">
+  <div id="hbkLeftColumn">
+    <div id="hbkLogo">
+      <div style="text-align:center;margin 0 auto;">
+        <a target="_blank" href="/"><img border="0" src="http://image.hibiki-radio.jp/images/toppage/logo.jpg" /></a>      </div>
+    </div>
+    <div id="hbkContents">
+      <div style="padding-top:3px;padding-left:10px;">
+        <a target="_blank" class="hbkMokuji" href="http://hibiki-radio.jp/mokuji"></a>
+      </div>
+      <div style="padding-top:3px;padding-left:10px;">
+        <a class="hbkSmartphone" href="http://hibiki-radio.jp/program"></a>
+      </div>
+    </div>
+    <div id="hbkNew">
+      <div style="text-align:center;margin 0 auto;padding-top:5px;">
+        
+<div style="width:250px;">
+<img src="http://image.hibiki-radio.jp/images/common/news/news_header.gif" /><div class="hbkNewContents">
+<div style="height:1px"></div>
+
+  <ul class="hbkNew" style="height:185px;"
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+><span class="hbkRssTop">    <a target="_blank" href="http://hibiki-radio.jp/info.atom"><img border="0" src="http://image.hibiki-radio.jp/images/common/news/rss_btn.gif" /></a>  </span>
+  
+    <li class="icon4"><a target="_blank" href="http://hibiki-radio.jp/description/kazamigakuen">銆岄ⅷ瑕嬪鍦掓柊鑱為儴銆嶅叕闁嬮尣闊虫焙瀹氾紒锛?/a></li>
+    <div style="height:5px"></div>
+
+      
+    <li class="icon2"><a target="_blank" href="http://hibiki-radio.jp/info?page=1#hbkInfo526">TV銈儖銉°€庛偝銉笺儔锛氥儢銉偆銈兗銆忋儵銈搞偑鐣祫閰嶄俊姹哄畾锛?/a></li>
+    <div style="height:5px"></div>
+
+      
+    <li class="icon1"><a target="_blank" href="http://hibiki-radio.jp/free_html/mh_heian">銉熴儷銈偅銉涖兗銉犮偤骞冲畨绁炲濂夌磵銉┿偆銉栵紒鐗╄博鎯呭牨鍏枊锛?/a></li>
+    <div style="height:5px"></div>
+
+      
+    <li class="icon2"><a target="_blank" href="http://hibiki-radio.jp/description/oneoff">鏂扮暘绲勫叕闁嬶紒銆屻倧銈撱亰銇点倝銇樸亰-oneoff radi鈥︹€?/a></li>
+    <div style="height:5px"></div>
+
+        <div style="text-align:right; padding: 5px 5px 0px 120px;">
+    <a target="_blank" class="hbkNewMore" href="http://hibiki-radio.jp/info?page=1"></a>
+  </div>
+</ul>
+</div><img src="http://image.hibiki-radio.jp/images/common/news/news_footer.gif" /></div>      </div>
+    </div>
+  </div>
+  <div id="hbkRightColumn">
+
+
+<script type="text/javascript">
+var flashvars = {
+};
+var params = {
+  menu: "false",
+  scale
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+: "noScale",
+  allowFullscreen: "true",
+  allowScriptAccess: "always",
+  bgcolor: "#FFFFFF"
+};
+var attributes = {
+  id:"Hibiki_FLV_Player",
+  name:"System"
+};
+
+swfobject.embedSWF("player/Hibiki_FLV_Player.swf", "hbkAltContent", "700", "432", "9.0.0", "player/expressInstall.swf", flashvars, params, attributes);
+
+function getSystemData()
+{
+  var info = {};
+  info.systemdata = "player/data.xml";
+  return info;
+}
+
+function AttachVideo(channelID, contentsID, isAdvertis, isVideo)
+{
+  document.System.onPlay(channelID, contentsID, isAdvertis, isVideo);
+}
+</script>
+    
+    
+    <div id="hbkFlashPlayer">
+      <div id="hbkAltContent">
+        <p><a target="_blank" href="http://www.adobe.com/go/getflashplayer"><img 
+            src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+            alt="Get Adobe Flash player" /></a></p>
+      </div>
+    </div>
+    <div style="clear:both;"></div>
+  </div>
+  <div id="hbkPrograms">
+    <div id="hbkProgramTabs" style="margin:5px;">
+      <ul>
+        <li><a id="hbkTab1"  href="http://hibiki-radio.jp/get_program/1"></a></li>
+        <li><a id="hbkTab2"  href="http://hibiki-radio.jp/get_program/2"></a></li>
+        <li><a id="hbkTab3"  href="http://hibiki-radio.jp/get_program/3"></a></li>
+        <li><a id="hbkTab4"  href="http://hibiki-radio.jp/get_program/4"></a></li>
+        <li><a id="hbkTab5"  href="http://hibiki-radio.jp/get_program/5"></a></li>
+        <li
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+><a id="hbkTab6"  href="http://hibiki-radio.jp/get_program/6"></a></li>
+        <li><a id="hbkTab7"  href="http://hibiki-radio.jp/get_program/7"></a></li>
+        <li><a id="hbkTab8"  href="http://hibiki-radio.jp/get_program/8"></a></li>
+        <li><a id="hbkTab9"  href="http://hibiki-radio.jp/get_program/9"></a></li>
+        <li><a id="hbkTab10" href="http://hibiki-radio.jp/get_program/10"></a></li>
+        <li><a id="hbkTab11" href="http://hibiki-radio.jp/get_program/11"></a></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript">
+      function _select_tab(idx) {
+        // 鍒濇湡鍖?        $('a#hbkTab1').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/mon_btn01.gif)');
+        $('#hbkTab1').hover(
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/mon_btn02.gif)');
+          },
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/mon_btn01.gif)');
+          }
+        );
+        
+        $('a#hbkTab2').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/tue_btn01.gif)');
+        $('#hbkTab2').hover(
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/tue_btn02.gif)');
+          },
+          function(){
+            $(this).css('background-image', 'u
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+rl(http://image.hibiki-radio.jp/images/toppage/week/tue_btn01.gif)');
+          }
+        );
+        
+        $('a#hbkTab3').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/wed_btn01.gif)');
+        $('#hbkTab3').hover(
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/wed_btn02.gif)');
+          },function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/wed_btn01.gif)');
+          }
+        );
+        
+        $('a#hbkTab4').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/thur_btn01.gif)');
+        $('#hbkTab4').hover(
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/thur_btn02.gif)');
+          },
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/thur_btn01.gif)');
+          }
+        );
+        
+        $('a#hbkTab5').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/fri_btn01.gif)');
+        $('#hbkTab5').hover(
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/fri_btn02.gif)');
+          },
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/to
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+ppage/week/fri_btn01.gif)');
+          }
+        );
+        
+        $('a#hbkTab6').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/sat_btn01.gif)');
+        $('#hbkTab6').hover(
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/sat_btn02.gif)');
+          },
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/sat_btn01.gif)');
+          }
+        );
+        
+        $('a#hbkTab7').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/anime_btn01.gif)');
+        $('#hbkTab7').hover(
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/anime_btn02.gif)');
+          },
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/anime_btn01.gif)');
+          }
+        );
+        
+        $('a#hbkTab8').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/game_btn01.gif)');
+        $('#hbkTab8').hover(
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/game_btn02.gif)');
+          },
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/game_btn01.gif
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+)');
+          }
+        );
+        
+        $('a#hbkTab9').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/tcg_btn01.gif)');
+        $('#hbkTab9').hover(
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/tcg_btn02.gif)');
+          },function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/tcg_btn01.gif)');
+          }
+        );
+        
+        $('a#hbkTab10').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/archive_btn01.gif)');
+        $('#hbkTab10').hover(
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/archive_btn02.gif)');
+          },function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/archive_btn01.gif)');
+          }
+        );
+        
+        $('a#hbkTab11').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/new_btn01.gif)');
+        $('#hbkTab11').hover(
+          function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/new_btn02.gif)');
+          },function(){
+            $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/new_btn01.gif)');
+          }
+        );
+        
+        switc
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+h (idx) {
+        case 0:
+          $('a#hbkTab1').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/mon_btn02.gif)');
+          $('#hbkTab1').hover(
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/mon_btn02.gif)');
+            },
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/mon_btn02.gif)');
+            }
+          );
+          break;
+        case 1:
+          $('a#hbkTab2').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/tue_btn02.gif)');
+          $('#hbkTab2').hover(
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/tue_btn02.gif)');
+            },
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/tue_btn02.gif)');
+            }
+          );
+          break;
+        case 2:
+          $('a#hbkTab3').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/wed_btn02.gif)');
+          $('#hbkTab3').hover(
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/wed_btn02.gif)');
+            },function(){
+              $(this).css('background-image', 'url(http://image.hibiki-r
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+adio.jp/images/toppage/week/wed_btn02.gif)');
+            }
+          );
+          break;
+        case 3:
+          $('a#hbkTab4').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/thur_btn02.gif)');
+          $('#hbkTab4').hover(
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/thur_btn02.gif)');
+            },
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/thur_btn02.gif)');
+            }
+          );
+          break;
+        case 4:
+          $('a#hbkTab5').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/fri_btn02.gif)');
+          $('#hbkTab5').hover(
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/fri_btn02.gif)');
+            },
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/fri_btn02.gif)');
+            }
+          );
+          break;
+        case 5:
+          $('a#hbkTab6').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/sat_btn02.gif)');
+          $('#hbkTab6').hover(
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/sat_btn02.gif)');
+            },
+
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/sat_btn02.gif)');
+            }
+          );
+          break;
+        case 6:
+          $('a#hbkTab7').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/anime_btn02.gif)');
+          $('#hbkTab7').hover(
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/anime_btn02.gif)');
+            },
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/anime_btn02.gif)');
+            }
+          );
+          break;
+        case 7:
+          $('a#hbkTab8').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/game_btn02.gif)');
+          $('#hbkTab8').hover(
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/game_btn02.gif)');
+            },
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/game_btn02.gif)');
+            }
+          );
+          break;
+        case 8:
+          $('a#hbkTab9').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/tcg_btn02.gif)');
+          $('#hbkTab9').hover(
+            function(){
+              $(this).css('back
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+ground-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/tcg_btn02.gif)');
+            },function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/tcg_btn02.gif)');
+            }
+          );
+          break;
+        case 9:
+          $('a#hbkTab10').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/archive_btn02.gif)');
+          $('#hbkTab10').hover(
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/archive_btn02.gif)');
+            },function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/archive_btn02.gif)');
+            }
+          );
+          break;
+        case 10:
+          $('a#hbkTab11').css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/new_btn02.gif)');
+          $('#hbkTab11').hover(
+            function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/new_btn02.gif)');
+            },function(){
+              $(this).css('background-image', 'url(http://image.hibiki-radio.jp/images/toppage/week/new_btn02.gif)');
+            }
+          );
+          break;
+        }
+      }
+      
+      
+      $(function() {
+        $('#hbkProgramTabs').tabs({ fx: { height: 'toggle', opacity: 'toggle', duration: 'normal' }
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+, cache: true, selected: 5 });
+        $('#hbkProgramTabs').tabs({
+          select: function(event, ui) {
+            _select_tab(ui.index);
+          }
+        });
+        _select_tab(5);
+      });
+      
+    </script>
+  </div>
+  <div id="hbkGuide" style="text-align:center;margin 0 auto;">
+    <div style="text-align:center;margin 0 auto;padding-top:3px;"> 
+      <a target="_blank" href="/program"><img border="0" src="http://image.hibiki-radio.jp/images/banner/bangumi_btn.gif" /></a>      <a target="_blank" href="/shop"><img border="0" src="http://image.hibiki-radio.jp/images/banner/goods_btn.gif" /></a>      <a target="_blank" href="/event"><img border="0" src="http://image.hibiki-radio.jp/images/banner/event_btn.gif" /></a>      <a target="_blank" href="http://ameblo.jp/hibiki-radio/"><img border="0" src="http://image.hibiki-radio.jp/images/banner/blog_btn.gif" /></a>    </div>
+    <div style="text-align:center;margin 0 auto;padding-top:3px;">
+      <table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="275px"></td>
+    <td width="75px"><a target="_blank" class="hbkSubMenuKatarite" href="http://hibiki-radio.jp/cast"></a></td>
+    <td width="75px"><a target="_blank" class="hbkSubMenuKyakujin" href="http://hibiki-radio.jp/guest"></a></td>
+    <td width="75px"><a target="_blank" class="hbkSubMenuQanda" href="http://hibiki-radio.jp/qanda"></a></td>
+    <td width="75px"><a target="_blank" class="hbkSubMenuPolicy" href="http://hibiki-radio.jp/policy"></a></td>
+    <td width="75px"><a target="_blank" class="hbkSubMenuCompany" href="http://hibiki-radio.jp/company"></a></td>
+    <td width="75px"><a target="_blank" class="hbkSubMenuContact" href="http://hibiki-radio.jp/contact"></a></td>
+    <td width="75px"><a target="_blank" class="hbkSubMenuBelongs" href="http://hibiki-radio.jp/voice_cast"></a></td>
+    <td width="275px"></td>
+  </tr>
+</table>    </div>
+  </div>
+  <div id="hbkAffiliate">
+    <iframe allowtransparency="true" width="950px" height="0" onload="this.height=0;this.height=this.contentWindow.document.body.scrollHeight+30" src="http://hibiki-radio.jp/free_html/affiliate.html?1348316471" border="0" style="border:none;" frameborder="0" scrolling="no">iframe 瀵惧繙銇儢銉┿偊銈躲仹銇旇Η銇忋仩銇曘亜銆?/iframe>
+    <div style="float:right;font-size:13px;padding: 0px 10px 5px 0px;"><a href="#top">銉氥兗銈搞伄鍏堥牠銇告埢銈?/a></div>
+<div style="clear:both;"></div>    <div class="hbkFooter"><table width="950px" height="68px"  border="0" cellspacing="0" cellpadding="0" style="overflow: hidden;">
+  <tr>
+    <td width="47px" valign="top" style="padding: 7px 0px 0px 13px;"><img border="0" src="http://image.hibiki-radio.jp/images/footer_banner/jasrac.jpg" /></td>
+    <td width="200px" valign="top" style="padding: 7px 0px 0px 20px;"><a target="_blank" href="http://bushiroad.com/"><img border="0" src="http://image.hibiki-radio.jp/images/footer_banner/bushiroad_banner.jpg" /></a></td>
+    <td width="195px" valign="top" style="padding: 7px 0px 0px 25px;"><a target="_blank"  href="http://www.animon.jp/"><img border="0" src="http://image.hibiki-radio.jp/images/footer_banner/animon_banner.gif" /></a></td>
+    <td width="195px" valign="top" style="padding: 7px 0px 0px 25px;"><a target="_blank"  href="http://www.rams.jp/"><img border="0" src="http://image.hibiki-radio.jp/images/footer_banner/rams_banner.gif" /></a></td>
+    <td align="right" valign="top" style="padding: 8px 15px 0px 0px;" rowspan="2"><a target="_blank"  href="http://get.adobe.com/jp/flashplayer/"><img border="0" src="http://image.hibiki-radio.jp/images/footer_banner/player_banner.gif" /></a></td>
+  </tr>
+  <tr height="19px">
+    <td valign="top" colspan="2"><p class="hbkJasrac">JASRAC瑷辫鐣彿 : 9011871001Y31016</td>
+    <td valign="top" colspan="2"><p class="hbkCopyright">Copyright&copy; 2010 HIBIKI Inc. All Rights Reserved.</td>
+  </tr>
+</table></div>
+  </div>
+</div>
+<!--shinobi1-->
+<script type="text/javascript" src="http://x5.nengu.jp/ufo/066225306"></script>
+<noscript><a href="http://www.shinobi.jp/">
+<img src="http://x5.nengu.jp/bin/ll?066225306" border="0" alt=""></a></noscript>
+<!--shinobi2-->
+    
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-16451024-1']);
+ _gaq.push(['_setDomainName', '.hibiki-radio.jp']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0];
+   s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+  </body>
+</html>
+
+0
+
+
+
+
+===
+2.
+
+
+Send: Return Code: 0x00000000
+GET /get_program/1 HTTP/1.1
+Accept: */*
+UA-CPU: x86
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+Host: hibiki-radio.jp
+Connection: Keep-Alive
+Cookie: __utma=187713463.346008780.1289033154.1289043033.1342920264.3; __utmz=187713463.1342920264.3.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ezbax_dfukui_vid=38AC490AE5; NinActiveSess20662253=; NinjaAccessUser20662253=1342920264287 1342920264287 1342920264287 1 1; hibiki=l52rpmu8mrtnmr9i43j54rb0b7
+
+
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+HTTP/1.1 200 OK
+Date: Sat, 22 Sep 2012 12:21:13 GMT
+Server: Apache
+X-Powered-By: PHP/5.2.13
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
+1fc9
+<div><div id="hbkTabsTop1"></div><div id="hbkTabsTopBg1"></div><div id="hbkTabsMain1"><div style="clear:both;"></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('r-2_live','925','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/bd76889779b86885a463fcf323c09ac36f7e5325.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">鍠滃鏉戣嫳姊ㄣ伄<br />
+ROYAL 脳 RADIO</div><div class="hbkProgramComment">娆″洖鐢熸斁閫併伅 锛欐湀锛掞紨鏃ワ紥锛掓檪锛?/div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('cafe_live','889','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/cd5098882b9e9ed7d9dbd53edf3770a18c66d49e.jpg" class="hbkProgramBanner" /><div class="hb
+
+Receive: Return Code: 0x00000000
+kProgramButton">銇俱仾銇炽亙鈾ャ仢銈夈仒銇冦伄<br />
+鈼嬧棆Cafe</div><div class="hbkProgramComment">娆″洖鐢熸斁閫併伅锛戯紣鏈堬紤鏃ワ紥锛掓檪锛?/div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('501st','549','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/2ce3534223c5347e6c67e58622a208b50ed52b7e.jpg" class="hbkProgramB
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+anner" /><div class="hbkProgramButton">501st JFW.OA锝炵浜斺棆涓€绲卞悎鎴︹€︹€?/div><div class="hbkProgramComment">绗紦锛楀洖銆€锛欐湀锛戯紣鏃ユ洿鏂帮紒</div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('kasoku','1111','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/942a6a236ba6e73bfabc54ea80802ddb1f2d20fd.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">銈偗銈汇儷銉汇儻銉笺儷銉?br />
+锝炲姞閫熴仚銈嬨儵銈搞偑锝?/div><div class="hbkProgramComment">绗紥锛栧洖銆€锛欐湀锛戯紬鏃ユ洿鏂帮紒</div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('puzzle','1136','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/a249419950cdd24bcd160e75b25df265166afded.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">銉曘偂銈ゃ兓銉栥儸銈ゃ兂 銉┿偢銈?br />
+銆溿優銉偝銉笺儖銇О鍙?/div><div class="hbkProgramComment">绗?0鍥?鏈€绲傚洖)銆€9鏈?7鏃ユ洿鏂帮紒</div></a></div><div style="clear:both;"></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('natsu','1011','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/a1a8b97b3ec8602bed70f6af42bf8483967d8d6c.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">銈ゃ儊銈仺銈娿伄銈撱伄<br />
+銇
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+仱銇俱仭銉┿偢銈?/div><div class="hbkProgramComment">绗?2鍥?鏈€绲傚洖)銆€8鏈?7鏃ユ洿鏂帮紒</div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('midnightmake','1241','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/f53eac26044f726d8d96acfe06bb3de4eb1ea787.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">澶滀腑銉°偆銈亴<br />
+姘椼伀銇仯銇熴亱銈?/div><div class="hbkProgramComment">绗紤锛栧洖銆€锛欐湀锛戯紬鏃ユ洿鏂帮紒</div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('sora','1048','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/e819bba270c29eb6a5ada861adc978d5215f34cd.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">寰充簳闈掔┖銇?br />
+銈姐儵銉堛兗銈紒</div><div class="hbkProgramComment">绗紥锛栧洖銆€锛欐湀锛戯紣鏃ユ洿鏂帮紒</div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('tsudaken','833','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/bd6c4064453c0ebb680979f5ff322f401f622b0f.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">銉勩儉銈便兂銉兗銉夈偡銉с兗銉?br />
+銇仸銈嬨伨銇с儵銈搞偑</div><div class="hbkProgramComment">绗紦锛楀洖銆€锛欐湀锛戯紣鏃ユ洿鏂帮紒</div></a></div><div class=
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+"hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('earth','731','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/40e954ddb5bd24134fa916dde277ec0ebfd77894.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">鑳界櫥楹荤編瀛?br />
+鍦扮悆NOTE</div><div class="hbkProgramComment">绗紤锛愶紦鍥炪€€锛欐湀锛戯紬鏃ラ厤淇★紒</div></a></div><div style="clear:both;"></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('crusade','1181','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/b48283011fb92d65733396d6c87ee7e8299e70ba.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">鐓夌崉銇偗銉偦銈ゃ儔<br />
+绲跺鏈嶅緭銉┿偢銈?/div><div class="hbkProgramComment">绗紤锛楀洖銆€锛欐湀锛戯紬鏃ユ洿鏂帮紒</div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('wsr','257','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/c017ed32f90a2711b186c8966be0644f4a659168.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">銉淬偂銈ゃ偣銈枫儱銉淬偂銉儎<br />
+銇层伩銇ゃ伄銈裤儫銉嗐儵銉冦偡銉ユ潙</div><div class="hbkProgramComment">绗紤锛愶紭鍥炪€€锛欐湀锛戯紬鏃ユ洿鏂帮紒 </div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('vs','262','1'
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+,'0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/e87f266e56f0851f5dfc35540f6f9632ec21423d.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">銉淬偅銈儓銉兗銈广儜銉笺偗銉┿偢銈紒 锝炪伩銇撱倣銈撯€︹€?/div><div class="hbkProgramComment">绗紭锛欏洖銆€锛欐湀锛戯紬鏃ユ洿鏂帮紒</div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('marshmallow','1031','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/17bcd6633e13a4d8d52a9d4cf5552d71d96b6d96.gif" class="hbkProgramBanner" /><div class="hbkProgramButton">閲庡窛銇曘亸銈夈伄<br />
+銉炪偡銉ャ優銉櫔銇熴亜銈€</div><div class="hbkProgramComment">绗紩锛栵紪鍥炪€€锛欐湀锛戯紬鏃ユ洿鏂帮紒</div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('workssezu','932','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/1e52159847e68d34b5a6f0fa0c24f74d1ca149e5.gif" class="hbkProgramBanner" /><div class="hbkProgramButton">THE WORKS 銇涖仛</div><div class="hbkProgramComment">绗紪锛撳洖銆€锛欐湀锛戯紣鏃ユ洿鏂帮紒 </div></a></div><div style="clear:both;"></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('animania','917','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/1130a399cac97
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+61f1edaff0261fa27e4171015f4.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">銇°亗銇嶃伄銇傘伀銇俱伀銇?/div><div class="hbkProgramComment">绗紥锛斿洖銆€锛欐湀锛戯紬鏃ユ洿鏂帮紒</div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('yuruhuwa','1201','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/bfbc69114b760b8b71f38cbbffe5c3bef50c1ea7.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">灏忚宸濆崈鏄庛伄<br />
+銈嗐倠銇ｃ仺銇点倧銇ｃ仺</div><div class="hbkProgramComment">绗紤锛掑洖銆€锛欐湀锛戯紬鏃ユ洿鏂帮紒</div></a></div><div class="hbkProgram"><a href="http://hibiki-radio.jp/#top" onClick="AttachVideo('hama_tv','1242','1','0')"><img border="0" src="http://image.hibiki-radio.jp/uploads/radio_program/top_banner/e5a1230850ae8d0ae3fcb8c1a88265c736354bc7.jpg" class="hbkProgramBanner" /><div class="hbkProgramButton">銉忋優銉嗐儸銉撱偢銉с兂</div><div class="hbkProgramComment">绗紬锛栧洖銆€锛欐湀锛戯紬鏃ユ洿鏂帮紒</div></a></div><div style="clear:both;"></div></div><div id="hbkTabsBottom1"></div>
+0
+
+
+
+
+
+
+
+
+===
+3.
+
+
+Send: Return Code: 0x00000000
+GET /uploads/data/channel/r-2_live/925.xml?1348317387312 HTTP/1.1
+Accept: */*
+UA-CPU: x86
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)
+Host: image.hibiki-radio.jp
+Connection: Keep-Alive
+Cookie: __utma=187713463.346008780.1289033154.1289043033.1342920264.3; __utmz=187713463.1342920264.3.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ezbax_dfukui_vid=38AC490AE5; NinActiveSess20662253=; NinjaAccessUser20662253=1342920264287 1342920264287 1342920264287 1 1; hibiki=l52rpmu8mrtnmr9i43j54rb0b7
+
+
+
+Receive: Return Code: 0x00002733
+
+
+Receive: Return Code: 0x00000000
+HTTP/1.1 200 OK
+Date: Sat, 22 Sep 2012 12:16:26 GMT
+Server: Apache
+Last-Modified: Mon, 10 Sep 2012 02:41:37 GMT
+ETag: "2598429-130-4c94fe582da40"
+Accept-Ranges: bytes
+Content-Length: 304
+Connection: close
+Content-Type: text/xml
+
+<data>
+	<protocol>rtmpt</protocol>
+	<domain>fms.hibiki-radio.info</domain>
+	<dir>hibiki1004</dir>
+	<channel type="main">
+		<flv>8_0_336</flv>
+		<thumbnail>http://image.hibiki-radio.jp/uploads/radio_program/flash_image/a3c49b40a44908ba8ae972b6c4802a2c0eb24d5d.jpg</thumbnail>
+	</channel>
+</data>
+
+
+
+

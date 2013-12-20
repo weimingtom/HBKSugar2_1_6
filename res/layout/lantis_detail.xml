@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/topbar_bg"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="35.0dip"
+        >
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="12.0sp"
+            android:text="" />
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+	    <LinearLayout
+	        android:id="@+id/linearLayoutContent"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical"
+	        >
+		        
+			<ScrollView
+			    android:id="@+id/scrollView1"
+			    android:layout_width="fill_parent"
+			    android:layout_height="0dp"
+			    android:layout_weight="1"
+			    >
+			    <LinearLayout
+			        android:id="@+id/linearLayout2"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical"
+			        >
+					
+			        <ImageView 
+			            android:id="@+id/imageViewThumbnail"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_gravity="center_horizontal"
+			            android:scaleType="centerInside"
+			            android:adjustViewBounds="true"
+			            />
+			        
+			        <TextView
+					    android:id="@+id/textViewDetail"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="数据加载中..."
+					    android:padding="5dp"
+					    android:textColor="#000000" 
+					    />
+			        
+					<TextView
+					    android:id="@+id/textViewLog"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_marginTop="10dp"
+					    android:layout_marginBottom="10dp"
+					    android:text=""
+					    android:padding="5dp"
+					    android:textColor="#000000"
+					    />
+					
+			    </LinearLayout>
+			</ScrollView> 
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content" 
+				android:orientation="horizontal"
+				android:gravity="center_vertical"
+				android:layout_margin="5dp"
+			    >
+				<Button
+				    android:id="@+id/buttonExtern"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:text="VLC 32k" 
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+				    />
+				<Button
+				    android:id="@+id/buttonExtern2"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:text="VLC 64k"  
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+				    />
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content" 
+				android:orientation="horizontal"
+				android:gravity="center_vertical"
+				android:layout_margin="5dp"
+			    >
+
+				<Button
+				    android:id="@+id/buttonRefresh"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:background="@drawable/btn"
+				    android:padding="5dp"
+				    android:text="刷新" />
+				
+				<Button
+				    android:id="@+id/buttonClear"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:text="清空"
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+				    />
+				
+				<Button
+				    android:id="@+id/buttonOpen"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:background="@drawable/btn"
+				    android:padding="5dp"
+				    android:text="网页" />
+			</LinearLayout>
+			
+		</LinearLayout>
+        
+		<TextView 
+		  android:id="@+id/textViewLoading"
+		  android:layout_width="match_parent"
+		  android:layout_height="match_parent"
+		  android:gravity="center_horizontal|center_vertical"
+		  android:layout_centerInParent="true"
+		  android:text="数据加载中,触碰取消..."
+		  android:textColor="#000000"
+		  android:visibility="invisible"
+		  />
+    </RelativeLayout>
+
+</LinearLayout>

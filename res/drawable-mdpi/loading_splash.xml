@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFFFF" />
+        </shape>
+    </item>
+    <item>
+		<bitmap 
+		    android:src="@drawable/loading001"
+		    android:antialias="true"
+		    android:dither="true"
+		    android:filter="true"
+		    android:gravity="center|center_vertical"
+		    />
+	</item>
+</layer-list>

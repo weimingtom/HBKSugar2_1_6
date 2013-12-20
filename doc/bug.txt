@@ -1,0 +1,40 @@
+10-01 07:20:20.874: E/AndroidRuntime(9816): java.lang.IllegalStateException: The content of the adapter has changed but ListView did not receive a notification. Make sure the content of your adapter is not modified from a background thread, but only from the UI thread. [in ListView(2131034140, class android.widget.ListView) with Adapter(class com.iteye.weimingtom.hbksuger.MenuItemAdapter)]
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.widget.ListView.layoutChildren(ListView.java:1558)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.widget.AbsListView.onLayout(AbsListView.java:1260)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.view.View.layout(View.java:7277)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.widget.RelativeLayout.onLayout(RelativeLayout.java:912)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.view.View.layout(View.java:7277)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.widget.LinearLayout.setChildFrame(LinearLayout.java:1254)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.widget.LinearLayout.layoutVertical(LinearLayout.java:1130)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.widget.LinearLayout.onLayout(LinearLayout.java:1047)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.view.View.layout(View.java:7277)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.widget.FrameLayout.onLayout(FrameLayout.java:338)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.view.View.layout(View.java:7277)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.widget.FrameLayout.onLayout(FrameLayout.java:338)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.view.View.layout(View.java:7277)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.view.ViewRoot.performTraversals(ViewRoot.java:1203)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.view.ViewRoot.handleMessage(ViewRoot.java:1957)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.os.Looper.loop(Looper.java:143)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at android.app.ActivityThread.main(ActivityThread.java:4277)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at java.lang.reflect.Method.invoke(Method.java:507)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+10-01 07:20:20.874: E/AndroidRuntime(9816): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+
+10-01 07:52:26.104: E/AndroidRuntime(10726): FATAL EXCEPTION: main
+10-01 07:52:26.104: E/AndroidRuntime(10726): android.app.RemoteServiceException: Bad notification for startForeground: java.lang.IllegalArgumentException: contentIntent required: pkg=com.iteye.weimingtom.hbksuger id=10000 notification=Notification(vibrate=null,sound=null,defaults=0x0,flags=0x40)
+10-01 07:52:26.104: E/AndroidRuntime(10726): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1161)
+10-01 07:52:26.104: E/AndroidRuntime(10726): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-01 07:52:26.104: E/AndroidRuntime(10726): 	at android.os.Looper.loop(Looper.java:143)
+10-01 07:52:26.104: E/AndroidRuntime(10726): 	at android.app.ActivityThread.main(ActivityThread.java:4277)
+10-01 07:52:26.104: E/AndroidRuntime(10726): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-01 07:52:26.104: E/AndroidRuntime(10726): 	at java.lang.reflect.Method.invoke(Method.java:507)
+10-01 07:52:26.104: E/AndroidRuntime(10726): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
+10-01 07:52:26.104: E/AndroidRuntime(10726): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
+10-01 07:52:26.104: E/AndroidRuntime(10726): 	at dalvik.system.NativeStart.main(Native Method)
+

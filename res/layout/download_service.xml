@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+    
+    <LinearLayout
+        android:id="@+id/linearLayoutTitle"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/topbar_bg"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="35.0dip"
+        >
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="12.0sp"
+            android:text="" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+
+            
+            
+            
+            
+            
+			<TextView
+				android:text="准备运行的下载服务"
+				android:gravity="center"
+				android:padding="10dip"
+				android:background="#add8e6"
+				android:textColorHighlight="#e6e6e6"
+				android:textColor="#000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:includeFontPadding="true"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+			/>
+			
+		    <TextView
+		        android:id="@+id/textViewLog"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="无信息"
+		        android:textColor="#000000"
+		    />
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        android:layout_margin="5dp"
+		        >
+		        <Button
+		            android:id="@+id/buttonStartForeground"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="下载" 
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+		            />
+				<!-- 
+				android:text="下载/重连"
+				 -->
+		        
+				<Button
+				    android:id="@+id/buttonOpen"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:text="打开音频"
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+				    />
+		    </LinearLayout>
+		    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+			<TextView
+				android:text="正在运行的下载服务"
+				android:gravity="center"
+				android:padding="10dip"
+				android:background="#add8e6"
+				android:textColorHighlight="#e6e6e6"
+				android:textColor="#000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:includeFontPadding="true"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+			/>
+            
+		    <ImageView 
+		        android:id="@+id/imageViewDownloadingThumbnail"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:scaleType="centerInside"
+		        android:adjustViewBounds="true"
+		        />
+			
+			<TextView
+			    android:id="@+id/textViewUpdateInfo"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="无信息"
+			    android:textColor="#000000"
+			    />
+			<ProgressBar
+			    android:id="@+id/progressBar1"
+			    style="?android:attr/progressBarStyleHorizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="5dp"
+			    />
+			
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        android:layout_margin="5dp"
+		        >
+		        <Button
+		            android:id="@+id/buttonUpdateDownloading"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="刷新" 
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+		            />
+		        <Button
+		            android:id="@+id/buttonStop"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="停止" 
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+		            />
+				<Button
+				    android:id="@+id/buttonOpenDownnloading"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:text="音频"
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+				    />
+		    </LinearLayout>
+			
+			
+		    
+		    
+		    
+			<TextView
+				android:text="正在播放的后台音乐"
+				android:gravity="center"
+				android:padding="10dip"
+				android:background="#add8e6"
+				android:textColorHighlight="#e6e6e6"
+				android:textColor="#000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:includeFontPadding="true"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+			/>
+			
+		    <ImageView 
+		        android:id="@+id/imageViewMusicThumbnail"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:scaleType="centerInside"
+		        android:adjustViewBounds="true"
+		        />
+			
+		    <TextView
+		        android:id="@+id/textViewServiceMusicLog"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="无信息"
+		        android:textColor="#000000"
+		    />
+		    
+			<ProgressBar
+			    android:id="@+id/progressBarMusic"
+			    style="?android:attr/progressBarStyleHorizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="5dp"
+			    />
+
+			<TextView
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="注意：可以边下载边播放（播放进度可能大于音频总长度）"
+			    android:textColor="#000000" />
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        android:layout_margin="5dp"
+		        >
+		        <Button
+		            android:id="@+id/buttonStartGetMusicInfo"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="刷新信息" 
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+		            />
+
+		        <Button
+		            android:id="@+id/buttonPlayPauseMusic"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="播放暂停" 
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+		            />
+		        	
+				<Button
+				    android:id="@+id/buttonStopServiceMusic"
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:text="停止播放"
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+				    />
+		    </LinearLayout>
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+			<TextView
+				android:text="清除重复文件"
+				android:gravity="center"
+				android:padding="10dip"
+				android:background="#add8e6"
+				android:textColorHighlight="#e6e6e6"
+				android:textColor="#000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:includeFontPadding="true"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+			/>
+			
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="保留最大下载文件，删除重复文件（包括同一节目较小的mp3文件，长度为0的mp3文件，无同名mp3文件的下载信息txt文件，长度为0的jpg文件）"
+		        android:textColor="#000000"
+		    />
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        android:layout_margin="5dp"
+		        >
+		        <Button
+		            android:id="@+id/buttonDelete"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="去除重复" 
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+		            />
+		    </LinearLayout>
+		    
+		    
+		    
+		    
+			<TextView
+				android:text="本地已下载节目统计"
+				android:gravity="center"
+				android:padding="10dip"
+				android:background="#add8e6"
+				android:textColorHighlight="#e6e6e6"
+				android:textColor="#000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:includeFontPadding="true"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+			/>
+			
+		    <TextView
+		        android:id="@+id/textViewCacheFileInfo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textColor="#000000"
+		    />
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:orientation="horizontal"
+		        android:gravity="center_vertical"
+		        android:layout_margin="5dp"
+		        >
+		        <Button
+		            android:id="@+id/buttonUpdateCacheFileInfo"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="刷新文件信息" 
+				    android:padding="5dp"
+				    android:background="@drawable/btn"
+		            />
+		    </LinearLayout>
+		    
+			<TextView
+				android:text="启用重试机制"
+				android:gravity="center"
+				android:padding="10dip"
+				android:background="#add8e6"
+				android:textColorHighlight="#e6e6e6"
+				android:textColor="#000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:includeFontPadding="true"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:visibility="gone"
+			/>
+		    
+			<CheckBox 
+			    android:id="@+id/checkBoxEnableRetry"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="是否启用重试机制"
+			    android:textColor="#000000"
+			    android:visibility="gone"
+			    />
+			    
+			    
+		</LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
